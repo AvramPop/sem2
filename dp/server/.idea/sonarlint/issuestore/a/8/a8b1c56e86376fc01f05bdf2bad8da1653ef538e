@@ -1,0 +1,26 @@
+
+0
+java:S3751"Make this method "public".(•’ß
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼½‡‹
+0
+java:S3751 "Make this method "public".(ÃÌïö
+V
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(ÃÌïö
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Û®ıúÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(Œ•ü¡
+5
+java:S3751("Make this method "public".(‹áË‰úÿÿÿÿ
+A
+java:S1452("&Remove usage of generic wildcard type.(‹áË‰úÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÖÆ‘àúÿÿÿÿ
+0
+java:S3751/"Make this method "public".(ù¸£Å
+V
+java:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(ù¸£Å
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(‘‘Õûÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(­ƒ­­øÿÿÿÿ
+B
+java:S22013"'The return value of "map" must be used.(ë“Ûúÿÿÿÿ
+5
+java:S3751?"Make this method "public".(ˆ‡ÑÖøÿÿÿÿ
+M	java:S106@"9Replace this use of System.out or System.err by a logger.(ãùì_

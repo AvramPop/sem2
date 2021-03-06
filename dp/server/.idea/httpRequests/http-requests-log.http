@@ -1,0 +1,168 @@
+GET http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"The Essential Kierkegaard", "author":"Hong & Hong", "publishingHouse":"Princeton", "read":false,"stars":"0"}
+
+<> 2020-12-19T062039.200.json
+
+###
+
+GET http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"The Essential Kierkegaard", "author":"Hong & Hong", "publishingHouse":"Princeton", "read":false,"stars":"0"}
+
+<> 2020-12-19T061554.200.json
+
+###
+
+PUT http://localhost:8080/books/4
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"The Essential Kierkegaard", "author":"Hong & Hong", "publishingHouse":"Princeton", "read":false,"stars":"0"}
+
+###
+
+DELETE http://localhost:8080/books/3
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"How to Read Kierkegaard", "author":"John Caputo", "publishingHouse":"Harper", "read":false}
+
+###
+
+DELETE http://localhost:8080/books/3
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"How to Read Kierkegaard", "author":"John Caputo", "publishingHouse":"Harper", "read":false}
+
+<> 2020-12-19T050609.500.json
+
+###
+
+GET http://localhost:8080/books/1
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"How to Read Kierkegaard", "author":"John Caputo", "publishingHouse":"Harper", "read":false}
+
+<> 2020-12-19T050509.200.json
+
+###
+
+GET http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"How to Read Kierkegaard", "author":"John Caputo", "publishingHouse":"Harper", "read":false}
+
+<> 2020-12-19T050503.200.json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"How to Read Kierkegaard", "author":"John Caputo", "publishingHouse":"Harper", "read":false}
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"A Secular Age", "author":"Charles Taylor", "publishingHouse":"Harvard", "read":true, "stars":5}
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Cache-Control: no-cache
+
+{"title":"A Secular Age", "author":"Charles Taylor", "publishingHouse":"Harvard", "read":true, "stars":5}
+
+<> 2020-12-19T050211.500.json
+
+###
+
+POST http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"A Secular Age", "author":"Charles Taylor", "publishingHouse":"Harvard", "read":true, "stars":5}
+
+<> 2020-12-19T050141.415.json
+
+###
+
+POST http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"A Secular Age", "author":"Charles Taylor", "publishingHouse":"Harvard", "read":true, "stars":5}
+
+<> 2020-12-19T050140.415.json
+
+###
+
+POST http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+{"title":"A Secular Age", "author":"Charles Taylor", "publishingHouse":"Harvard", "read":true, "stars":5}
+
+<> 2020-12-19T050117.415.json
+
+###
+
+GET http://localhost:8080/books/1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-19T045958.404.json
+
+###
+
+GET http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-19T045942.200.json
+
+###
+
+GET http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-19T045903.500.json
+
+###
+
+GET http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-19T045707.500.json
+
+###
+
+GET http://localhost:8080/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-12-19T045506.400.json
+
+###
+
