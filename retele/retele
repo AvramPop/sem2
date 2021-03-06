@@ -1,0 +1,42 @@
+HTML: 
+cd /var/www/html
+echo "some page" > index.html
+open <ip> in browser
+
+MYSQL:
+show databases;
+use speedfan_almicodave;
+show tables;
+// do whatever
+
+MAIL:
+echo "some text I want to write" | mail -s subject root
+sau
+telnet localhost 25
+mail from:fake@localhost
+rcpt to:root@localhost
+data
+mesaj
+.
+^C^]
+mail
+cat /var/mail/root
+alpine
+
+PUTTY:
+(install openssh-server)
+grab ip with ifconfig
+
+FTP:
+grap ip with ifconfg
+go to connect to server in mint
+choose SSH
+go nuts
+
+firewall:
+sudo su -
+ufw enable
+ufw deny 22
+iptables -L
+ufw allow 22
+

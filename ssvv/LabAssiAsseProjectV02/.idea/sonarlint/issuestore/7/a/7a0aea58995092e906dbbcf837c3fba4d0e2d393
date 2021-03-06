@@ -1,0 +1,21 @@
+
+N
+java:S2755."3Disable access to external entities in XML parsing.(ËíÕüÿÿÿÿ
+I
+java:S2755t"3Disable access to external entities in XML parsing.(ò†ì
+N
+java:S2755h"3Disable access to external entities in XML parsing.(ËíÕüÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'domain.Student'.(¸óÏÖúÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'validation.ValidationException'.(ï´÷Ø
+Y
+java:S1128">Remove this unused import 'javax.xml.parsers.DocumentBuilder'.(ƒ”¯¹ùÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(£üÎš
+^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Ñû‰¯
+Q	java:S125["<This block of commented-out lines of code should be removed.(’îáë
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(ÓÉê¡ýÿÿÿÿ
+M
+java:S1068"2Remove this unused "builderFactory" private field.(®ÊÇàÿÿÿÿÿ
