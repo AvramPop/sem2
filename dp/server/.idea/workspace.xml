@@ -31,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -305,13 +305,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,7 +360,8 @@
       <workItem from="1608715393849" duration="13485000" />
       <workItem from="1609753185307" duration="2750000" />
       <workItem from="1611391347949" duration="45000" />
-      <workItem from="1615047955524" duration="4673000" />
+      <workItem from="1615047955524" duration="4758000" />
+      <workItem from="1615189462322" duration="4398000" />
     </task>
     <servers />
   </component>
@@ -385,7 +388,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/Main.java</url>
-          <line>31</line>
+          <line>50</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
