@@ -15,8 +15,19 @@ public class StudentService {
     return studentRepository.findAll();
   }
 
+  public void addFullStudent(Integer uniqueNumber, String name, Integer year, Integer group) {
+    Student student = new Student.Builder(uniqueNumber).name(name).year(year).group(group).build();
+    studentRepository.save(student);
+  }
+
   @Autowired
   public void setStudentRepository(StudentRepository studentRepository) {
     this.studentRepository = studentRepository;
+  }
+
+  public void addTemporaryStudent(int uniqueNumber, String name) {
+    Student student = new Student.Builder(uniqueNumber).name(name).build();
+    studentRepository.save(student);
+
   }
 }

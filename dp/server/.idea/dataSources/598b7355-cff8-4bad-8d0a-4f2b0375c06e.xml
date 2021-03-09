@@ -1419,7 +1419,7 @@ false posixrules
     <database id="4" parent="1" name="mobile">
       <ObjectId>24692</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1503</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1513</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|24694|24696|1
 sequence|table|32889|32891|1
@@ -1505,7 +1505,7 @@ UC/10
 </Acl>
       <StateNumber>275</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1504</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1514</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="21" parent="4" name="plpgsql">
@@ -1707,10 +1707,10 @@ UC/10
       <StateNumber>1500</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="49" parent="36" name="studentId">
+    <column id="49" parent="36" name="student_id">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>1500</StateNumber>
+      <StateNumber>1512</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="50" parent="36" name="grades_id_uindex">
@@ -1742,18 +1742,18 @@ UC/10
     <foreign-key id="53" parent="36" name="grades_students_uniquenumber_fk">
       <ObjectId>32895</ObjectId>
       <StateNumber>1500</StateNumber>
-      <ColNames>studentId</ColNames>
+      <ColNames>student_id</ColNames>
       <RefTableId>32884</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>students</RefTableName>
       <RefKeyName>students_pk</RefKeyName>
       <RefColNames>uniqueNumber</RefColNames>
     </foreign-key>
-    <column id="54" parent="37" name="uniqueNumber">
+    <column id="54" parent="37" name="unique_number">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1497</StateNumber>
+      <StateNumber>1509</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="55" parent="37" name="name">
@@ -1777,7 +1777,7 @@ UC/10
     <index id="58" parent="37" name="students_pk">
       <ObjectId>32887</ObjectId>
       <StateNumber>1497</StateNumber>
-      <ColNames>uniqueNumber</ColNames>
+      <ColNames>unique_number</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
       <AccessMethodId>403</AccessMethodId>
@@ -1787,7 +1787,7 @@ UC/10
     <key id="59" parent="37" name="students_pk">
       <ObjectId>32888</ObjectId>
       <StateNumber>1497</StateNumber>
-      <ColNames>uniqueNumber</ColNames>
+      <ColNames>unique_number</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>students_pk</UnderlyingIndexName>
     </key>
