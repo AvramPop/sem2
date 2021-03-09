@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6d5679-4d14-42e8-8647-d89f1e88b94d" name="Default Changelist" comment="" />
+    <list default="true" id="7c6d5679-4d14-42e8-8647-d89f1e88b94d" name="Default Changelist" comment="added builder and adapter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,15 +305,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,7 +359,8 @@
       <workItem from="1609753185307" duration="2750000" />
       <workItem from="1611391347949" duration="45000" />
       <workItem from="1615047955524" duration="4758000" />
-      <workItem from="1615189462322" duration="4398000" />
+      <workItem from="1615189462322" duration="4512000" />
+      <workItem from="1615297606196" duration="2186000" />
     </task>
     <servers />
   </component>
@@ -388,7 +387,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/Main.java</url>
-          <line>50</line>
+          <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
