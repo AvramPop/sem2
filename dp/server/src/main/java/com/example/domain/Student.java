@@ -27,6 +27,14 @@ public class Student {
         '}';
   }
 
+  public void setYear(int year) {
+    this.year = year;
+  }
+
+  public Integer getYear() {
+    return year;
+  }
+
   public static class StudentBuilder {
     private String name;
     private Integer uniqueNumber, team, year;

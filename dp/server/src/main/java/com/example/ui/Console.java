@@ -5,6 +5,7 @@ import com.example.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.Map;
 import java.util.Scanner;
 
 @Component
@@ -39,6 +40,15 @@ public class Console {
         case 7:
           exportToPlainText();
           break;
+        case 8:
+          statistics();
+          break;
+        case 9:
+          studentsGroup();
+          break;
+        case 10:
+          sort();
+          break;
         case 0:
           System.out.println("Bye");
           return;
@@ -47,6 +57,29 @@ public class Console {
           break;
       }
     }
+  }
+
+  private void sort() {
+    System.out.println("1 - sort by student number | 2 - sort by value | 3 - sort by subject");
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("option:");
+    int option = Integer.parseInt(scanner.nextLine());
+    gradeService.sortedGrades(option).forEach(g -> System.out.println(g.toString()));
+  }
+
+  private void studentsGroup() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("student unique number:");
+    int uniqueNumber = Integer.parseInt(scanner.nextLine());
+    System.out.println("student new year:");
+    int newYear = Integer.parseInt(scanner.nextLine());
+    studentService.updateStudentYear(uniqueNumber, newYear);
+  }
+
+  private void statistics() {
+    Map.Entry<Double, Double> stats = gradeService.getMeanAndStandardDeviation();
+    System.out.println("Mean: " + stats.getKey());
+    System.out.println("Standard deviation: " + stats.getValue());
   }
 
   private void exportToPlainText() {
@@ -99,6 +132,9 @@ public class Console {
     System.out.println("5 - add grade");
     System.out.println("6 - export to XML");
     System.out.println("7 - export to plain text file");
+    System.out.println("8 - statistics");
+    System.out.println("9 - update student's year");
+    System.out.println("10 - sort grades");
     System.out.println("0 - exit");
     System.out.print(">");
   }

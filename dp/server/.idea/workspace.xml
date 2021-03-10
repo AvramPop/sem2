@@ -362,7 +362,9 @@
       <workItem from="1615189462322" duration="4512000" />
       <workItem from="1615297606196" duration="2352000" />
       <workItem from="1615322526780" duration="3019000" />
-      <workItem from="1615383349111" duration="3784000" />
+      <workItem from="1615383349111" duration="4084000" />
+      <workItem from="1615396255605" duration="6837000" />
+      <workItem from="1615408889676" duration="2979000" />
     </task>
     <servers />
   </component>
@@ -383,5 +385,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/service/StudentService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
