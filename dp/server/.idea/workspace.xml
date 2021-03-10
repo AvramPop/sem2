@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6d5679-4d14-42e8-8647-d89f1e88b94d" name="Default Changelist" comment="added builder and adapter">
-      <change beforePath="$PROJECT_DIR$/../../nc/lab3/lab3.m" beforeDir="false" />
-    </list>
+    <list default="true" id="7c6d5679-4d14-42e8-8647-d89f1e88b94d" name="Default Changelist" comment="added builder and adapter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,6 +305,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Main" />
@@ -352,7 +361,8 @@
       <workItem from="1615047955524" duration="4758000" />
       <workItem from="1615189462322" duration="4512000" />
       <workItem from="1615297606196" duration="2352000" />
-      <workItem from="1615322526780" duration="2675000" />
+      <workItem from="1615322526780" duration="3019000" />
+      <workItem from="1615383349111" duration="3784000" />
     </task>
     <servers />
   </component>

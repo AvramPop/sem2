@@ -15,8 +15,8 @@ public class StudentService {
     return studentRepository.findAll();
   }
 
-  public void addFullStudent(Integer uniqueNumber, String name, Integer year, Integer group) {
-    Student student = new Student.Builder(uniqueNumber).name(name).year(year).group(group).build();
+  public void addFullStudent(Integer uniqueNumber, String name, Integer year, Integer team) {
+    Student student = new Student.StudentBuilder(uniqueNumber).name(name).year(year).team(team).build();
     studentRepository.save(student);
   }
 
@@ -26,7 +26,7 @@ public class StudentService {
   }
 
   public void addTemporaryStudent(int uniqueNumber, String name) {
-    Student student = new Student.Builder(uniqueNumber).name(name).build();
+    Student student = new Student.StudentBuilder(uniqueNumber).name(name).build();
     studentRepository.save(student);
 
   }

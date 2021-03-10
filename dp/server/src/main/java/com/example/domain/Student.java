@@ -1,6 +1,5 @@
 package com.example.domain;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -13,31 +12,41 @@ public class Student {
 
   private String name;
   private Integer year;
-  private Integer group;
+  private Integer team;
 
   public Student() {
   }
 
-  public static class Builder {
-    private String name;
-    private Integer uniqueNumber, group, year;
+  @Override
+  public String toString() {
+    return "Student{" +
+        "uniqueNumber=" + uniqueNumber +
+        ", name='" + name + '\'' +
+        ", year=" + year +
+        ", team=" + team +
+        '}';
+  }
 
-    public Builder(Integer uniqueNumber) {
+  public static class StudentBuilder {
+    private String name;
+    private Integer uniqueNumber, team, year;
+
+    public StudentBuilder(Integer uniqueNumber) {
       this.uniqueNumber = uniqueNumber;
     }
 
-    public Builder name(String name) {
+    public StudentBuilder name(String name) {
       this.name = name;
       return this;
     }
 
-    public Builder year(Integer year) {
+    public StudentBuilder year(Integer year) {
       this.year = year;
       return this;
     }
 
-    public Builder group(Integer group) {
-      this.group = group;
+    public StudentBuilder team(Integer team) {
+      this.team = team;
       return this;
     }
 
@@ -46,7 +55,7 @@ public class Student {
       student.uniqueNumber = this.uniqueNumber;
       student.name = this.name;
       student.year = this.year;
-      student.group = this.group;
+      student.team = this.team;
       return student;
     }
   }

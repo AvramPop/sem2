@@ -52,4 +52,20 @@ public class Grade {
   public void setStudentId(Integer studentId) {
     this.studentId = studentId;
   }
+
+  public Grade(String subject, Integer value, Integer studentId) {
+    this.subject = subject;
+    this.value = value;
+    this.studentId = studentId;
+  }
+
+  @Override
+  public String toString() {
+    return "Grade{" +
+        "id=" + id +
+        ", subject='" + subject + '\'' +
+        ", value=" + value +
+        ", studentId=" + studentId +
+        '}';
+  }
 }
